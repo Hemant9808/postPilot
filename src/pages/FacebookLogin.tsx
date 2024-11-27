@@ -99,6 +99,7 @@ const FacebookLogin: React.FC = () => {
       console.log('User is not logged into Facebook.');
     }
   };
+  
 
   const handleLogin = (): void => {
     window.FB.login(
